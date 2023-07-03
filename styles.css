@@ -81,10 +81,13 @@ h1, h2 {
     margin-right: 6%;
     max-width: 70%;
 } 
+<<<<<<< HEAD
 /* PROJECTS SECTION!!! */
 .my-projects {
     padding: 20px 60px;
 }
+=======
+>>>>>>> 271e8be (test)
 
 .card-link {
     text-decoration: none;
