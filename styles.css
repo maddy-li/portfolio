@@ -1,0 +1,31 @@
+
+@font-face {
+    font-family: 'Oriya MN';
+    src: url('./oriya-mn.ttf') format('truetype');
+    font-style: regular;
+  }
+
+*{
+    color: #707070;
+    font-family: 'Shree Devanagari 714', 'Times New Roman', Times, serif;
+    font-size: 22pt;
+}
+#top-right{
+    text-align: right;
+}
+.button{
+    font-size: 24pt;
+    color: grey;
+}
+
+h1, h2 {
+    font-family: 'Oriya MN', 'Times New Roman', Times, serif;
+}
+h1 {
+    font-size: 100pt;
+}
+#cherry-blossom{ 
+    width: 1145pt;
+    height: 765pt;
+    rotate: 172deg;
+}
