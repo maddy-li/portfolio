@@ -9,43 +9,49 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <div class="mb-5">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4" id="top-right">
-            <ul class="nav nav-pills ms-auto">
-                <li class="nav-item"><a id="about-me" class="button nav-link" href="./mywork.html">About Me</a></li>
-                <li class="nav-item"><a id="contact-me" class="button nav-link" href="./mywork.html">Get in Touch!</a></li>
+    <section id="top">
+        <div class="container" id="navbar">
+            <ul class="nav me-auto d-flex flex-wrap justify-content-end mt-3">
+                <!-- <li class="nav-item top-right"><a href="./main.html" class="nav-link link-body-emphasis px-1">Home</a></li> -->
+                <li class="nav-item top-right"><a href="./about.html" class="nav-link link-body-emphasis px-1">About Me</a></li>
+                <li class="nav-item top-right"><a href="./contact.html" class="nav-link link-body-emphasis px-1">Get in Touch!</a></li>
             </ul>
-        </header>        
-        <br>
-        <div class="container">
-            <div class="rows">
-                <div class="col-lg-6 ">
-                    <p>Hello! My name is...</p>
-                    <h1 class="display-2 lh-1 mb-3 text-nowrap" id="name">Maddy Li</h1>
-                    <p>Aspiring Software Engineer & <br> UX/UI Designer 💻♡</p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                      <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2"></button>
-                      <button type="button" class="btn btn-outline-secondary btn-lg px-4"></button>
+        </div>      
+        <div class="container ms-md-5 mb-5 mt-5">          
+                <div>
+                    <p class="text-center text-md-start">Hello! My name is...</p>
+                    <h1 class="display-2 lh-1 mb-3 text-nowrap text-center text-md-start" id="name">Maddy Li</h1>
+                    <p class="text-center text-md-start">Software Engineer &amp; <br> UI Designer 💻♡</p>
+                    <div class="d-flex flex-wrap justify-content-md-start justify-content-center">
+                        <div>
+                            <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2"></button>
+                        </div>
+                        <div class="px-1">
+                            <button type="button" class="btn btn-outline-secondary btn-lg px-4"></button>
+                        </div>
                     </div>
-                  </div>
+                </div>
+            <div>
+                <img src="./vecteezy_realistic-cherry-blossom-branch-cherry-blossom-with-pink_22993705_173.png" class="img-responsive" id="cherry-blossom" alt="cherry blossoms"/>
             </div>
         </div>
-    </div>
-    <div class="mt-5">
+    </section>
+    <div class="mb-5">
         <hr id="hr-1">
         <hr id="hr-2">
     </div>
-    <div>
-        <img src="./vecteezy_realistic-cherry-blossom-branch-cherry-blossom-with-pink_22993705_173.png" class="img-responsive" id="cherry-blossom" alt="cherry blossoms"/>
-    </div>
-    <br> 
-    <div class="container">
-        <h2>My Projects</h2>
-        <ul>
-            <p>Programming Projects</p>
-            <p>Graphic Design</p>
-        </ul>
-    </div>
+    <section id="projects">
+        <div class="container ms-md-5 mb-5 mt-5">
+            <div class="rows">
+                <h2>My Projects</h2>
+                <ul>
+                    <p>Programming Projects</p>
+                    <p>Graphic Design</p>
+                </ul>
+            </div>
+        </div>
+    </section>
+
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
