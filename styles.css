@@ -10,9 +10,18 @@
     font-family: 'Shree Devanagari 714', 'Times New Roman', Times, serif;
     font-size: 22pt;
 }
-#top-right{
-    text-align: right;
+
+#hr-1 {
+    rotate: -1deg;
+    position: relative;
+    top: 30px;
 }
+
+#hr-2 {
+    rotate: 1deg;
+    position: relative;
+}
+
 .button{
     font-size: 24pt;
     color: grey;
@@ -21,11 +30,19 @@
 h1, h2 {
     font-family: 'Oriya MN', 'Times New Roman', Times, serif;
 }
-h1 {
-    font-size: 100pt;
-}
-#cherry-blossom{ 
-    width: 1145pt;
-    height: 765pt;
-    rotate: 172deg;
+
+#cherry-blossom {
+    position: absolute;
+    transform: scaleY(-1);
+    width: 1045px;
+    rotate: 130deg;
+    top: 180px;
+    right: -90px;
+    max-width: 70%;
+} 
+
+@media (max-width: 767px) {
+    #cherry-blossom {
+        display: none;
+    }
 }
