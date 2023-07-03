@@ -12,9 +12,13 @@ body {
     overflow-x: hidden;
 }
 
+h1, h2 {
+    font-family: 'Oriya MN', 'Times New Roman', Times, serif !important;
+}
+
 *{
     color: #707070;
-    font-family: 'Shree Devanagari 714', 'Times New Roman', Times, serif;
+    font-family: 'Shree Devanagari 714', 'Times New Roman', Times, serif !important;
     font-size: 22pt;
 }
 
@@ -42,10 +46,6 @@ body {
     color: grey;
 }
 
-h1, h2 {
-    font-family: 'Oriya MN', 'Times New Roman', Times, serif;
-}
-
 #cherry-blossom {
     position: absolute;
     transform: scaleY(-1);
@@ -56,6 +56,14 @@ h1, h2 {
     margin-right: 6%;
     max-width: 70%;
 } 
+
+.card-link {
+    text-decoration: none;
+}
+
+.card-title {
+    font-size: 22pt;
+}
 
 @media (max-width: 767px) {
     #cherry-blossom {
