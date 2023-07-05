@@ -69,11 +69,17 @@ h1, h2 {
     font-size: 22pt;
 }
 
+
+#top > div > div > div > div > button > span {
+    font-size: 10pt;
+  }
+
+
 @media (max-width: 767px) {
     #cherry-blossom {
         display: none;
     }
     #navbar {
-        display: none;
+
     }
 }
