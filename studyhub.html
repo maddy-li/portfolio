@@ -1,0 +1,160 @@
+
+@font-face {
+    font-family: 'Oriya MN';
+    src: url('./oriya-mn.ttf') format('truetype');
+    font-style: regular;
+  }
+
+body {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1, h2 {
+    font-family: 'Oriya MN', 'Times New Roman', Times, serif !important;
+}
+
+*{
+    color: #707070;
+    font-family: 'Shree Devanagari 714', 'Times New Roman', Times, serif !important;
+    font-size: 22pt;
+}
+
+p.top-text{
+    opacity: .8;
+}
+
+.nav-link.text-body-secondary {
+    font-size: 14pt;
+}
+
+#navbar a{
+    font-family: 'Shree Devanagari 714', 'Times New Roman', Times, serif !important;
+    font-size: 12pt;
+}
+
+#navbar {
+    max-width: 83.33%;
+    font-family: 'Shree Devanagari 714', 'Times New Roman', Times, serif !important;
+    opacity: .8;
+}
+
+#hr-1 {
+    rotate: -1.4deg;
+    position: relative;
+    top: 23px;
+}
+
+#hr-2 {
+    rotate: 1.4deg;
+    position: relative;
+}
+
+.button{
+    font-size: 24pt;
+    color: grey;
+}
+
+#cherry-blossom {
+    position: absolute;
+    transform: scaleY(-1);
+    width: 1045px;
+    rotate: 130deg;
+    top: 175px;
+    right: -90px;
+    margin-right: 6%;
+    max-width: 70%;
+} 
+
+.card-link {
+    text-decoration: none;
+}
+
+.card-title {
+    font-size: 22pt;
+}
+
+
+#top > div > div > div > div > button > a > span {
+    font-size: 12pt;
+    position: relative;
+    top: -3px;
+}
+
+#top > div > div > div > div > .btn-outline-secondary:hover {
+    background-color: #F6F6F650;
+  }
+
+  .project-card > a:hover {
+    background-color: #F6F6F650;
+  }
+
+  .project-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .project-header img {
+    display: block;
+    max-width: 70%;
+    margin: 20px auto;
+  }
+
+ .about-me {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+  grid-template-rows: auto auto auto;
+  max-width: 80%;
+  margin: 50px auto;
+}
+
+.about-me h {
+    grid-row-start: 1;
+}
+
+.about-me .para-1 {
+  grid-row-start: 2;
+  font-size: 14pt;
+  margin-right: 50px;
+}
+
+.about-me .profile-card {
+  border: solid;
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+.profile-card div button span {
+  font-size: 12pt;
+  position: relative;
+  top: -3px;
+}
+
+#projects > .project-container {
+    margin-right: 100px;
+}
+
+.about-me-bottom {
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto auto 50px;
+}
+
+@media (max-width: 767px) {
+    #cherry-blossom {
+        z-index: -1;
+        opacity: 0.15;
+        max-width: 60%;
+        min-width: 50%;
+    }
+    #projects > .project-container {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+}
