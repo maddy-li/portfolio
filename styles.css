@@ -186,6 +186,56 @@ p.top-text{
     align-items: center;
     margin-top: 50px;
   }
+<<<<<<< HEAD
+=======
+
+  .project-header img {
+    display: block;
+    max-width: 70%;
+    margin: 20px auto;
+  }
+
+ .about-me {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+  grid-template-rows: auto auto auto;
+  max-width: 80%;
+  margin: 50px auto;
+}
+
+.about-me h {
+    grid-row-start: 1;
+}
+
+.about-me .para-1 {
+  grid-row-start: 2;
+  font-size: 14pt;
+  margin-right: 50px;
+}
+
+.about-me .profile-card {
+  border: solid;
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+.profile-card div button span {
+  font-size: 12pt;
+  position: relative;
+  top: -3px;
+}
+
+#projects > .project-container {
+    margin-right: 100px;
+}
+
+.about-me-bottom {
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto auto 50px;
+}
+>>>>>>> a864bae (f)
 
   .project-header img {
     display: block;
@@ -255,6 +305,7 @@ p.top-text{
         opacity: 0.15;
         max-width: 60%;
 <<<<<<< HEAD
+<<<<<<< HEAD
         min-width: 50%;
     }
     #projects > .project-container {
@@ -271,4 +322,13 @@ p.top-text{
 
     }
 >>>>>>> 4a54efd (swag)
+=======
+        min-width: 50%;
+    }
+    #projects > .project-container {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+>>>>>>> a864bae (f)
 }
