@@ -22,6 +22,10 @@ h1, h2 {
     font-size: 22pt;
 }
 
+p.top-text{
+    opacity: .8;
+}
+
 .nav-link.text-body-secondary {
     font-size: 14pt;
 }
@@ -70,16 +74,22 @@ h1, h2 {
 }
 
 
-#top > div > div > div > div > button > span {
-    font-size: 10pt;
+#top > div > div > div > div > button > a > span {
+    font-size: 12pt;
+    position: relative;
+    top: -3px;
+}
+
+#top > div > div > div > div > .btn-outline-secondary:hover {
+    background-color: #F6F6F690;
   }
 
 
 @media (max-width: 767px) {
     #cherry-blossom {
-        display: none;
-    }
-    #navbar {
+        z-index: -1;
+        opacity: 0.15;
+        max-width: 60%;
 
     }
 }
