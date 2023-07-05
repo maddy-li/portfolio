@@ -30,12 +30,15 @@ p.top-text{
     font-size: 14pt;
 }
 
-.top-right {
-    font-size: 14pt;
+#navbar a{
+    font-family: 'Shree Devanagari 714', 'Times New Roman', Times, serif !important;
+    font-size: 12pt;
 }
 
 #navbar {
     max-width: 83.33%;
+    font-family: 'Shree Devanagari 714', 'Times New Roman', Times, serif !important;
+    opacity: .8;
 }
 
 #hr-1 {
@@ -81,7 +84,11 @@ p.top-text{
 }
 
 #top > div > div > div > div > .btn-outline-secondary:hover {
-    background-color: #F6F6F690;
+    background-color: #F6F6F650;
+  }
+
+  .project-card > a:hover {
+    background-color: #F6F6F650;
   }
 
 
