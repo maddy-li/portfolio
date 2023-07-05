@@ -11,8 +11,17 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 }
+<<<<<<< HEAD
 /* default text color+font+size */
 * {
+=======
+
+h1, h2 {
+    font-family: 'Oriya MN', 'Times New Roman', Times, serif !important;
+}
+
+*{
+>>>>>>> 0cb3628 (s)
     color: #707070;
     font-family: 'Shree Devanagari 714', 'Times New Roman', Times, serif !important;
     font-size: 22pt;
@@ -44,6 +53,7 @@ h1, h2 {
     padding-right: 60px;
 }
 
+<<<<<<< HEAD
 .nav.bottom-nav {
     display: flex;
     justify-content: center;
@@ -56,6 +66,20 @@ h1, h2 {
     padding-bottom: 40px;
 }
 /* adjusting horizontal line angles */
+=======
+.nav-link.text-body-secondary {
+    font-size: 14pt;
+}
+
+.top-right {
+    font-size: 14pt;
+}
+
+#navbar {
+    max-width: 83.33%;
+}
+
+>>>>>>> 0cb3628 (s)
 #hr-1 {
     rotate: -1.4deg;
     position: relative;
@@ -70,7 +94,11 @@ h1, h2 {
     font-size: 24pt;
     color: grey;
 }
+<<<<<<< HEAD
 /* homepage background visual */
+=======
+
+>>>>>>> 0cb3628 (s)
 #cherry-blossom {
     position: absolute;
     transform: scaleY(-1);
@@ -96,6 +124,7 @@ h1, h2 {
 .card-title {
     font-size: 22pt;
 }
+<<<<<<< HEAD
 /* (future) scrolling text divider on bottom of homepage */
 .scrolling-text-line {
     margin-top: 0px;
@@ -188,6 +217,9 @@ h1, h2 {
     margin: auto auto 50px;
 }
 /* small screen */
+=======
+
+>>>>>>> 0cb3628 (s)
 @media (max-width: 767px) {
     /* centers top nav */
     .nav.top-nav {
@@ -195,6 +227,7 @@ h1, h2 {
         padding-right: 0px;
         padding-bottom: 30px;
     }
+<<<<<<< HEAD
     #projects-text {
         display: flex;
         justify-content: center;
@@ -211,4 +244,9 @@ h1, h2 {
         margin-left: 30px;
     }
     
+=======
+    #navbar {
+        display: none;
+    }
+>>>>>>> 0cb3628 (s)
 }
