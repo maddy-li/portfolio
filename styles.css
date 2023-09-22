@@ -11,52 +11,66 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 }
-
-h1, h2 {
-    font-family: 'Oriya MN', 'Times New Roman', Times, serif !important;
-}
-
-*{
+/* default text color+font+size */
+* {
     color: #707070;
     font-family: 'Shree Devanagari 714', 'Times New Roman', Times, serif !important;
     font-size: 22pt;
 }
-
-p.top-text{
-    opacity: .8;
+/* default titles */
+h1, h2 {
+    font-family: 'Oriya MN', 'Times New Roman', Times, serif !important;
 }
-
-.nav-link.text-body-secondary {
-    font-size: 14pt;
-}
-
-#navbar a{
+/* NAVBAR */
+/* text styling */
+.nav a{
     font-family: 'Shree Devanagari 714', 'Times New Roman', Times, serif !important;
     font-size: 12pt;
+    text-decoration: none;
+    color: #707070;
+}
+.nav a:hover{
+    opacity: .75;
+}
+/* formatting */
+.nav.top-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 60px;
 }
 
-#navbar {
-    max-width: 83.33%;
-    font-family: 'Shree Devanagari 714', 'Times New Roman', Times, serif !important;
-    opacity: .8;
+.nav.bottom-nav {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
 }
-
+/* adds padding to top intro section */
+.intro-header {
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+/* adjusting horizontal line angles */
 #hr-1 {
     rotate: -1.4deg;
     position: relative;
     top: 23px;
 }
-
 #hr-2 {
     rotate: 1.4deg;
     position: relative;
 }
-
+/* nav buttons */
 .button{
     font-size: 24pt;
     color: grey;
 }
-
+/* homepage background visual */
 #cherry-blossom {
     position: absolute;
     transform: scaleY(-1);
@@ -67,6 +81,10 @@ p.top-text{
     margin-right: 6%;
     max-width: 70%;
 } 
+/* PROJECTS SECTION!!! */
+.my-projects {
+    padding: 20px 60px;
+}
 
 .card-link {
     text-decoration: none;
@@ -74,6 +92,21 @@ p.top-text{
 
 .card-title {
     font-size: 22pt;
+}
+/* (future) scrolling text divider on bottom of homepage */
+.scrolling-text-line {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.scrolling-text {
+    display: inline;
+    white-space: nowrap;
+    font-size: 18pt;
+}
+
+.scrolling-text-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -85,6 +118,13 @@ p.top-text{
 
 #top > div > div > div > div > .btn-outline-secondary:hover {
     background-color: #F6F6F650;
+  }
+
+  .flower-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 55%;
   }
 
   .project-card > a:hover {
@@ -144,8 +184,19 @@ p.top-text{
     max-width: 80%;
     margin: auto auto 50px;
 }
-
+/* small screen */
 @media (max-width: 767px) {
+    /* centers top nav */
+    .nav.top-nav {
+        justify-content: center;
+        padding-right: 0px;
+        padding-bottom: 30px;
+    }
+    #projects-text {
+        display: flex;
+        justify-content: center;
+    }
+    
     #cherry-blossom {
         z-index: -1;
         opacity: 0.15;
@@ -156,5 +207,5 @@ p.top-text{
         margin-right: 30px;
         margin-left: 30px;
     }
-
+    
 }
