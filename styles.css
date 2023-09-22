@@ -11,22 +11,8 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 /* default text color+font+size */
 * {
-=======
-
-h1, h2 {
-    font-family: 'Oriya MN', 'Times New Roman', Times, serif !important;
-}
-
-*{
->>>>>>> 0cb3628 (s)
-=======
-/* default text color+font+size */
-* {
->>>>>>> f72c5e9 (reorganized code + added more profile cards/divide)
     color: #707070;
     font-family: 'Shree Devanagari 714', 'Times New Roman', Times, serif !important;
     font-size: 22pt;
@@ -34,63 +20,10 @@ h1, h2 {
 /* default titles */
 h1, h2 {
     font-family: 'Oriya MN', 'Times New Roman', Times, serif !important;
-<<<<<<< HEAD
 }
 /* NAVBAR */
 /* text styling */
 .nav a{
-    font-family: 'Shree Devanagari 714', 'Times New Roman', Times, serif !important;
-    font-size: 12pt;
-    text-decoration: none;
-    color: #707070;
-}
-.nav a:hover{
-    opacity: .75;
-}
-/* formatting */
-.nav.top-nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    width: 100%;
-    gap: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 60px;
-}
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-.nav.bottom-nav {
-    display: flex;
-    justify-content: center;
-    padding: 8px;
-}
-/* adds padding to top intro section */
-.intro-header {
-    padding-left: 60px;
-    padding-top: 30px;
-    padding-bottom: 40px;
-}
-/* adjusting horizontal line angles */
-=======
-=======
-p.top-text{
-    opacity: .8;
-}
-
->>>>>>> 4a54efd (swag)
-.nav-link.text-body-secondary {
-    font-size: 14pt;
-}
-
-#navbar a{
-=======
-}
-/* NAVBAR */
-/* text styling */
-.nav a{
->>>>>>> f72c5e9 (reorganized code + added more profile cards/divide)
     font-family: 'Shree Devanagari 714', 'Times New Roman', Times, serif !important;
     font-size: 12pt;
     text-decoration: none;
@@ -116,10 +49,6 @@ p.top-text{
     justify-content: center;
     padding: 8px;
 }
-<<<<<<< HEAD
-
->>>>>>> 0cb3628 (s)
-=======
 /* adds padding to top intro section */
 .intro-header {
     padding-left: 60px;
@@ -127,7 +56,6 @@ p.top-text{
     padding-bottom: 40px;
 }
 /* adjusting horizontal line angles */
->>>>>>> f72c5e9 (reorganized code + added more profile cards/divide)
 #hr-1 {
     rotate: -1.4deg;
     position: relative;
@@ -142,15 +70,7 @@ p.top-text{
     font-size: 24pt;
     color: grey;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 /* homepage background visual */
-=======
-
->>>>>>> 0cb3628 (s)
-=======
-/* homepage background visual */
->>>>>>> f72c5e9 (reorganized code + added more profile cards/divide)
 #cherry-blossom {
     position: absolute;
     transform: scaleY(-1);
@@ -161,19 +81,10 @@ p.top-text{
     margin-right: 6%;
     max-width: 70%;
 } 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f72c5e9 (reorganized code + added more profile cards/divide)
 /* PROJECTS SECTION!!! */
 .my-projects {
     padding: 20px 60px;
 }
-<<<<<<< HEAD
-=======
->>>>>>> 271e8be (test)
-=======
->>>>>>> f72c5e9 (reorganized code + added more profile cards/divide)
 
 .card-link {
     text-decoration: none;
@@ -182,10 +93,6 @@ p.top-text{
 .card-title {
     font-size: 22pt;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f72c5e9 (reorganized code + added more profile cards/divide)
 /* (future) scrolling text divider on bottom of homepage */
 .scrolling-text-line {
     margin-top: 0px;
@@ -211,20 +118,6 @@ p.top-text{
 
 #top > div > div > div > div > .btn-outline-secondary:hover {
     background-color: #F6F6F650;
-<<<<<<< HEAD
-=======
-  }
-
-  .project-card > a:hover {
-    background-color: #F6F6F650;
->>>>>>> 4a54efd (swag)
-  }
-
-  .flower-icon {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    opacity: 55%;
   }
 
   .flower-icon {
@@ -244,57 +137,6 @@ p.top-text{
     align-items: center;
     margin-top: 50px;
   }
-<<<<<<< HEAD
-=======
-
-  .project-header img {
-    display: block;
-    max-width: 70%;
-    margin: 20px auto;
-  }
-
- .about-me {
-  display: grid;
-  grid-template-columns: 8fr 4fr;
-  grid-template-rows: auto auto auto;
-  max-width: 80%;
-  margin: 50px auto;
-}
-
-.about-me h {
-    grid-row-start: 1;
-}
-
-.about-me .para-1 {
-  grid-row-start: 2;
-  font-size: 14pt;
-  margin-right: 50px;
-}
-
-.about-me .profile-card {
-  border: solid;
-  grid-row-start: 2;
-  grid-column-start: 2;
-}
-
-.profile-card div button span {
-  font-size: 12pt;
-  position: relative;
-  top: -3px;
-}
-
-#projects > .project-container {
-    margin-right: 100px;
-}
-
-.about-me-bottom {
-    display: flex;
-    justify-content: center;
-    max-width: 80%;
-    margin: auto auto 50px;
-}
-<<<<<<< HEAD
->>>>>>> a864bae (f)
 
   .project-header img {
     display: block;
@@ -343,12 +185,6 @@ p.top-text{
     margin: auto auto 50px;
 }
 /* small screen */
-=======
-
->>>>>>> 0cb3628 (s)
-=======
-/* small screen */
->>>>>>> f72c5e9 (reorganized code + added more profile cards/divide)
 @media (max-width: 767px) {
     /* centers top nav */
     .nav.top-nav {
@@ -356,10 +192,6 @@ p.top-text{
         padding-right: 0px;
         padding-bottom: 30px;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f72c5e9 (reorganized code + added more profile cards/divide)
     #projects-text {
         display: flex;
         justify-content: center;
@@ -369,8 +201,6 @@ p.top-text{
         z-index: -1;
         opacity: 0.15;
         max-width: 60%;
-<<<<<<< HEAD
-<<<<<<< HEAD
         min-width: 50%;
     }
     #projects > .project-container {
@@ -378,26 +208,4 @@ p.top-text{
         margin-left: 30px;
     }
     
-=======
-    #navbar {
-        display: none;
-    }
->>>>>>> 0cb3628 (s)
-=======
-
-    }
->>>>>>> 4a54efd (swag)
-=======
-        min-width: 50%;
-    }
-    #projects > .project-container {
-        margin-right: 30px;
-        margin-left: 30px;
-    }
-<<<<<<< HEAD
-
->>>>>>> a864bae (f)
-=======
-    
->>>>>>> f72c5e9 (reorganized code + added more profile cards/divide)
 }
