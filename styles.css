@@ -12,6 +12,7 @@ body {
     overflow-x: hidden;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* default text color+font+size */
 * {
 =======
@@ -22,6 +23,10 @@ h1, h2 {
 
 *{
 >>>>>>> 0cb3628 (s)
+=======
+/* default text color+font+size */
+* {
+>>>>>>> f72c5e9 (reorganized code + added more profile cards/divide)
     color: #707070;
     font-family: 'Shree Devanagari 714', 'Times New Roman', Times, serif !important;
     font-size: 22pt;
@@ -29,6 +34,7 @@ h1, h2 {
 /* default titles */
 h1, h2 {
     font-family: 'Oriya MN', 'Times New Roman', Times, serif !important;
+<<<<<<< HEAD
 }
 /* NAVBAR */
 /* text styling */
@@ -79,17 +85,49 @@ p.top-text{
 }
 
 #navbar a{
+=======
+}
+/* NAVBAR */
+/* text styling */
+.nav a{
+>>>>>>> f72c5e9 (reorganized code + added more profile cards/divide)
     font-family: 'Shree Devanagari 714', 'Times New Roman', Times, serif !important;
     font-size: 12pt;
+    text-decoration: none;
+    color: #707070;
+}
+.nav a:hover{
+    opacity: .75;
+}
+/* formatting */
+.nav.top-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 60px;
 }
 
-#navbar {
-    max-width: 83.33%;
-    font-family: 'Shree Devanagari 714', 'Times New Roman', Times, serif !important;
-    opacity: .8;
+.nav.bottom-nav {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
 }
+<<<<<<< HEAD
 
 >>>>>>> 0cb3628 (s)
+=======
+/* adds padding to top intro section */
+.intro-header {
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+/* adjusting horizontal line angles */
+>>>>>>> f72c5e9 (reorganized code + added more profile cards/divide)
 #hr-1 {
     rotate: -1.4deg;
     position: relative;
@@ -105,10 +143,14 @@ p.top-text{
     color: grey;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* homepage background visual */
 =======
 
 >>>>>>> 0cb3628 (s)
+=======
+/* homepage background visual */
+>>>>>>> f72c5e9 (reorganized code + added more profile cards/divide)
 #cherry-blossom {
     position: absolute;
     transform: scaleY(-1);
@@ -120,12 +162,18 @@ p.top-text{
     max-width: 70%;
 } 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f72c5e9 (reorganized code + added more profile cards/divide)
 /* PROJECTS SECTION!!! */
 .my-projects {
     padding: 20px 60px;
 }
+<<<<<<< HEAD
 =======
 >>>>>>> 271e8be (test)
+=======
+>>>>>>> f72c5e9 (reorganized code + added more profile cards/divide)
 
 .card-link {
     text-decoration: none;
@@ -135,6 +183,9 @@ p.top-text{
     font-size: 22pt;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f72c5e9 (reorganized code + added more profile cards/divide)
 /* (future) scrolling text divider on bottom of homepage */
 .scrolling-text-line {
     margin-top: 0px;
@@ -167,6 +218,13 @@ p.top-text{
   .project-card > a:hover {
     background-color: #F6F6F650;
 >>>>>>> 4a54efd (swag)
+  }
+
+  .flower-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 55%;
   }
 
   .flower-icon {
@@ -235,6 +293,7 @@ p.top-text{
     max-width: 80%;
     margin: auto auto 50px;
 }
+<<<<<<< HEAD
 >>>>>>> a864bae (f)
 
   .project-header img {
@@ -287,6 +346,9 @@ p.top-text{
 =======
 
 >>>>>>> 0cb3628 (s)
+=======
+/* small screen */
+>>>>>>> f72c5e9 (reorganized code + added more profile cards/divide)
 @media (max-width: 767px) {
     /* centers top nav */
     .nav.top-nav {
@@ -295,6 +357,9 @@ p.top-text{
         padding-bottom: 30px;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f72c5e9 (reorganized code + added more profile cards/divide)
     #projects-text {
         display: flex;
         justify-content: center;
@@ -329,6 +394,10 @@ p.top-text{
         margin-right: 30px;
         margin-left: 30px;
     }
+<<<<<<< HEAD
 
 >>>>>>> a864bae (f)
+=======
+    
+>>>>>>> f72c5e9 (reorganized code + added more profile cards/divide)
 }
