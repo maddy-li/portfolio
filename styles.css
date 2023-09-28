@@ -150,11 +150,13 @@ h1, h2 {
     display: inline;
     white-space: nowrap;
     font-size: 18pt;
+    overflow: hidden;
 }
 
 .scrolling-text-container {
     margin-top: 20px;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 .flower-icon {
     display: block;
