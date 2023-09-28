@@ -1,3 +1,3 @@
 # portfolio_website
 
-Work in progress!
+Display's personal projects
