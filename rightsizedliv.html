@@ -9,57 +9,92 @@
     <title>Portfolio</title>
 </head>
 <body>
+    <section id="top">
       <!-- nav bar: home, about me, get in touch -->
-      <nav class="container" id="navbar">
-        <div class="nav me-auto d-flex flex-wrap justify-content-md-end justify-content-center mt-3">
-            <div class="nav-item top-righty"><a href="./main.html" class="nav-link link-body-emphasis px-1">My Work</a></div>
-            <div class="nav-item top-righty"><a href="./about.html" class="nav-link link-body-emphasis px-1">About Me</a></div>
+      <nav class="navbar" id="navbar">
+        <div class="nav top-nav">
+          <div class="nav-item"><a href="./main.html">My Work</a></div>
+          <div class="nav-item"><a href="./about.html">About Me</a></div>
         </div>
-      </nav>
-      <div class="project-header">
-        <h1>RightSized Living</h1>
-        <p> UX/UI Design</p>
-        <div>
-          <iframe width="750" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRLhSvFyOcWWFbO6yhEI6FZ%2FWebsite-Design%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D1-4%26viewport%3D817%252C2267%252C1.06%26t%3DtVpkK7oU7Q2JKGdW-1%26scaling%3Dscale-down%26mode%3Ddesign" allowfullscreen></iframe>
+      </nav> 
+      </section>
+      <!-- body -->
+     <section>
+        <div class="project-top">
+            <h1 class="project-header-1">RightSized Living </h1>
+            <div class="github-project-button px-2 px-md-1">
+                <button type="button" class="btn btn-outline-secondary btn-sm px-1 py-0 me-md-2">
+                  <a href="https://github.com/jasonhu03/rightsizedliving" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                    <span class="github-project-button-text button-text">Project Code</span>
+                  </a>
+                </button>
+            </div>
+            <div>
+                <iframe width="750" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRLhSvFyOcWWFbO6yhEI6FZ%2FWebsite-Design%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D1-4%26viewport%3D817%252C2267%252C1.06%26t%3DtVpkK7oU7Q2JKGdW-1%26scaling%3Dscale-down%26mode%3Ddesign" allowfullscreen></iframe>
+              </div>
+                <p class="project-top-subtitle">Technologies Used</p>
+            <div class="project project-tags-container">
+                <div class="project-tag"><p> Figma</p></div>
+                <div class="project-tag"><p> UX/UI Design</p></div>
+                <div class="project-tag"><p> HTML</p></div>
+                <div class="project-tag"><p> CSS</p></div>
+                <div class="project-tag"><p> Bootstrap</p></div>
+            </div>
+            </div>
+        <div class="horizontal-lines">
+            <hr id="hr-1">
+            <hr id="hr-2">
         </div>
-    </div>     
-    <div class="container case-study mt-2">
-      <!-- overview -->
-      <h2>Overview</h2>
-      <!-- i think give the quote down below first in cute lil quote box, and then make the overview incorporate it -->
-      <!-- <p>Rightsizing: rightsizing your life means asking what's really important, then aligning the way you live with those values, goals and needs.</p> -->
-      <p>RightSized Living is a start-up company that provides personalized and compassionate support for elderly individuals moving into senior living. Unlike other moving services, they value the individual's emotional well-being during this challenging transition. Each move is specialized to simplify the process and address unique needs, ensuring a seamless and stress-free experience.</p>
-      <h2>Objective</h2>
-      <p>Develop and design a website that effectively communicates the core values of the company, appeals to the target audience, and provides a seamless user experience that is accessible and user-friendly to all ages.</p>
-      <h2>Problems</h2>
-      <ul>
-        <li>Identifying the target audience</li>
-        <li>Ensuring accessibility to all ages</li>
-        <li>Emphasizing the "YOU"!</li>
-      </ul>
-      <h2>Process</h2>
-      <ul>
-        <li>Collaborated closely w/ company owner to ensure all text and images on the website were to her liking</li>
-      </ul>
-      <h2>Solutions</h2>
-      <ul>
-        <li>Target Audience Segmentation</li>
-        <!-- can be like communicated with owner, through our collaboration + research determined adult children are target audience  -->
-        <ul>
-          <li>Family-Centered Images</li>
-        </ul>
-        <li>Prominent "Contact Us" Button</li>
-        <li>Elderly-Friendly Visuals</li>
-        <li>Simplified and Visual Interface</li>
-      </ul>
-      <h2>Outcome</h2>
-      <p>Through the implementation of the proposed solutions and careful consideration throughout the design process, the Rightsized Living website successfully communicates with its targeted user audience through user-friendly design choices!</p> 
-      <h2>Reflection</h2>
-      <p>This was my first major project in UX/UI, and I am happy to say that I'm extremely proud of it! <br>Some major takeaways include:</p>
-      <ul>
-        <li>"communication is not only essential, it's valuable!" It really emphasized the importance of consistant communication and effort, especially when it comes to learning of the design the client envisioned, and creating it!</li>
-        <li>"consistency is key" / client comes first? </li>
-      </ul>
-    </div>
+        <div class="project-body">
+          <h2 class="project-header-2">Description</h2>
+          <p class="project-para">Designed and developed a prototype website in collaboration with a small, local business. My role was the UX/UI designer in charge of design and remained in close contact with the business owner to offer suggestions and ensure the product reflected the vision of her company. The website was designed and prototyped using Figma and created using HTML, CSS, and Bootstrap in collaboration with a fellow team-member.  </p>
+            <h2 class="project-header-2">Overview</h2>
+            <p class="project-para">RightSized Living is a start-up company that provides personalized and compassionate support for elderly individuals moving into senior living. Unlike other moving services, they value the individual's emotional well-being during this challenging transition. Each move is specialized to simplify the process and address unique needs, ensuring a seamless and stress-free experience.</p>
+<h2 class="project-header-2">Objective</h2>
+            <p class="project-para">Develop and design a website that effectively communicates the core values of the company, appeals to the target audience, and provides a seamless user experience that is accessible and user-friendly to all ages.</p>
+            <h2 class="project-header-2">Problems</h2>
+            <ul>
+              <li>1.<br><b>Appealing to Target Audience</b><br>While the company's services are catered to the elderly, the target audience also includes the children and grandchildren will also be looking for these services in their stead. Therefore, there is a need for the website to cater to both the elderly and those who could be looking for them. </li>
+              <li>2.<br><b>Ensuring Accessibility</b><br>Because the service is for the elderly, it is important for the website to be easy to navigate and simple to understand by those who may not be as familiar to the internet.</li>
+              <li>3.<br><b>Emphasizing the Customer</b><br>One request from the owner was to make sure anyone who found the website to know that the company's mission is more than simply doing services, but truly catering and personalizing their work for "YOU!".</li>
+          </ul>
+            <h2 class="project-header-2">Solutions</h2>
+            <ul>
+              <li>1.<br><b>Target Audience Representation</b><br>Visuals were chosen to represent a diverse age group, including elderly individuals and families with children and grandchildren. This approach helps create a welcoming and inclusive atmosphere on the website, showcasing seniors enjoying the company's services alongside interactions with younger family members.</li>
+              <li>2.<br><b>Simplified Visual Interface</b><br>To ensure accessibility, the website's visual interface is designed with simplicity in mind. Large, easy-to-read fonts, high-contrast colors, and a clean layout are implemented. Navigation menus are straightforward, and icons are intuitive, making it user-friendly even for those who may not be familiar with the internet. Additionally, clear and concise headings and labels are used to guide users effectively.</li>
+              <li>3.<br><b>Incorporating Testimonials</b><br>To establish trust and credibility, the website includes a "Testimonials" page where clients, both elderly and their family members, can share their positive experiences with the company's services.  They are presented in a user-friendly format, with quotes from satisfied customers accompanied by their names and photos, if available, to reassure potential clients of the quality and reliability of the services. </li>
+          </ul>
+            <h2 class="project-header-2">Outcome</h2>
+            <p class="project-para">Through the implementation of the proposed solutions and careful consideration throughout the design process, the Rightsized Living website successfully communicates with its targeted user audience through user-friendly design choices!</p>
+            <p class="project-para">Some major takeaways and reflections include:</p>
+            <ul>
+              <li>1.<br><b>Communication is Essential</b><br>Our consistent communication and effort towards collaborating with the client allowed us to approach the project effectively, particularly when understanding the client's envisioned design and bringing it to life."</li>
+              <li>2.<br><b>The Client Comes First</b><br>In the world of design, the paramount principle is aligning every design choice with the client's needs. This approach ensures that every decision made is centered around fulfilling their unique vision, resulting in a compelling and unified brand identity.</li>
+          </ul>
+        </div>
+        <!-- github button -->
+     </section>
+      <!-- footer -->
+      <div class="scrolling-text-container">
+        <hr class="scrolling-text-line">
+        <p class="scrolling-text">Thank you for your time ♡ Thank you for your time ♡ Thank you for your time ♡ Thank you for your time ♡</p>
+        <hr class="scrolling-text-line">
+      </div>
+      <div class="container">
+          <footer class="my-1">
+              <!-- add footer img -->
+              <img src="./images/flower-icon.png" class="flower-icon">
+              <ul class="nav bottom-nav">
+              <li class="nav-item"><a href="mailto:md5013@nyu.edu" class="nav-link px-2 text-body-secondary">Email</a></li>
+              <li class="nav-item"><a href="https://www.linkedin.com/in/maddy-li1/" class="nav-link px-2 text-body-secondary">LinkedIn</a></li>
+              <li class="nav-item"><a href="./resume.pdf" class="nav-link px-2 text-body-secondary" download="maddy-li-resume.pdf">Resume</a></li>
+            </ul>
+          </footer>
+        </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
