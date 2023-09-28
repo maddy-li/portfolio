@@ -343,6 +343,9 @@ h1, h2 {
         align-items: center;
         text-align: center;
       }
+      .intro-header {
+        padding-left: 0px;
+    }
     
 }
   
