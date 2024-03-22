@@ -74,7 +74,7 @@ h1, h2 {
     position: absolute;
     transform: scaleY(-1);
     width: 1045px;
-    rotate: 130deg;
+    rotate: 155deg;
     top: 175px;
     right: -90px;
     margin-right: 60px;
@@ -227,7 +227,7 @@ h1, h2 {
 #photo-of-me {
     border: 1px solid grey;
     margin-top: 10px;
-    width: 95%;
+    width: 90%;
 }
 
 #projects > .project-container {
